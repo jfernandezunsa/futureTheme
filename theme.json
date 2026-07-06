@@ -1,0 +1,381 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "layout": {
+      "contentSize": "860px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "unsa-navy",
+          "name": "Azul UNSA",
+          "color": "#0d1f3c"
+        },
+        {
+          "slug": "unsa-gold",
+          "name": "Dorado UNSA",
+          "color": "#b8860b"
+        },
+        {
+          "slug": "unsa-cyan",
+          "name": "Cyan Institucional",
+          "color": "#0099bb"
+        },
+        {
+          "slug": "white",
+          "name": "Blanco",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "black",
+          "name": "Negro",
+          "color": "#111111"
+        },
+        {
+          "slug": "background",
+          "name": "Fondo Claro",
+          "color": "#f9f8f6"
+        },
+        {
+          "slug": "border",
+          "name": "Borde Claro",
+          "color": "#e8e5e0"
+        },
+        {
+          "slug": "muted",
+          "name": "Texto Secundario",
+          "color": "#6b6b6b"
+        }
+      ]
+    },
+    "typography": {
+      "customFontSize": false,
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "slug": "montserrat",
+          "name": "Montserrat",
+          "fontFamily": "'Montserrat', Arial, Helvetica, sans-serif"
+        },
+        {
+          "slug": "system",
+          "name": "Sistema",
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "name": "Pequeño",
+          "size": "13px"
+        },
+        {
+          "slug": "normal",
+          "name": "Normal",
+          "size": "15px"
+        },
+        {
+          "slug": "medium",
+          "name": "Mediano",
+          "size": "18px"
+        },
+        {
+          "slug": "large",
+          "name": "Grande",
+          "size": "24px"
+        },
+        {
+          "slug": "x-large",
+          "name": "Extra grande",
+          "size": "36px"
+        },
+        {
+          "slug": "hero",
+          "name": "Hero",
+          "size": "clamp(2.4rem, 5vw, 5.2rem)"
+        }
+      ],
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "lineHeight": true,
+      "textDecoration": true,
+      "textTransform": true
+    },
+    "spacing": {
+      "blockGap": true,
+      "margin": true,
+      "padding": true,
+      "units": [
+        "px",
+        "rem",
+        "%",
+        "vw",
+        "vh"
+      ],
+      "spacingSizes": [
+        {
+          "slug": "20",
+          "name": "Muy pequeño",
+          "size": "0.75rem"
+        },
+        {
+          "slug": "30",
+          "name": "Pequeño",
+          "size": "1rem"
+        },
+        {
+          "slug": "40",
+          "name": "Medio",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "50",
+          "name": "Grande",
+          "size": "2rem"
+        },
+        {
+          "slug": "60",
+          "name": "Muy grande",
+          "size": "3rem"
+        },
+        {
+          "slug": "70",
+          "name": "Sección",
+          "size": "4.5rem"
+        },
+        {
+          "slug": "80",
+          "name": "Sección amplia",
+          "size": "6rem"
+        }
+      ]
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "slug": "suave",
+          "name": "Sombra suave",
+          "shadow": "0 2px 14px rgba(0, 0, 0, 0.07)"
+        },
+        {
+          "slug": "media",
+          "name": "Sombra media",
+          "shadow": "0 6px 28px rgba(0, 0, 0, 0.13)"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#f9f8f6",
+      "text": "#111111"
+    },
+    "typography": {
+      "fontFamily": "'Montserrat', Arial, Helvetica, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "1.75"
+    },
+    "spacing": {
+      "blockGap": "1.5rem"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "#0d1f3c"
+        },
+        "typography": {
+          "textDecoration": "underline"
+        },
+        ":hover": {
+          "color": {
+            "text": "#0099bb"
+          }
+        }
+      },
+      "button": {
+        "color": {
+          "background": "#0d1f3c",
+          "text": "#ffffff"
+        },
+        "border": {
+          "color": "#0d1f3c",
+          "radius": "2px",
+          "style": "solid",
+          "width": "1px"
+        },
+        "spacing": {
+          "padding": {
+            "top": "13px",
+            "right": "26px",
+            "bottom": "13px",
+            "left": "26px"
+          }
+        },
+        "typography": {
+          "fontFamily": "'Montserrat', Arial, Helvetica, sans-serif",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "letterSpacing": "0.1em",
+          "lineHeight": "1",
+          "textTransform": "uppercase",
+          "textDecoration": "none"
+        },
+        ":hover": {
+          "color": {
+            "background": "transparent",
+            "text": "#0d1f3c"
+          }
+        }
+      },
+      "heading": {
+        "color": {
+          "text": "#111111"
+        },
+        "typography": {
+          "fontFamily": "'Montserrat', Arial, Helvetica, sans-serif",
+          "fontWeight": "800",
+          "lineHeight": "1.15",
+          "letterSpacing": "-0.025em"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "clamp(2.2rem, 4vw, 4rem)",
+          "fontWeight": "800",
+          "lineHeight": "1.05",
+          "letterSpacing": "-0.04em"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "clamp(1.6rem, 2.5vw, 2.4rem)",
+          "fontWeight": "800",
+          "lineHeight": "1.12",
+          "letterSpacing": "-0.035em"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "1.1rem",
+          "fontWeight": "700",
+          "lineHeight": "1.2",
+          "letterSpacing": "-0.02em"
+        }
+      }
+    },
+    "blocks": {
+      "core/paragraph": {
+        "typography": {
+          "fontSize": "15px",
+          "lineHeight": "1.75"
+        },
+        "color": {
+          "text": "#111111"
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": "#111111"
+        }
+      },
+      "core/list": {
+        "typography": {
+          "fontSize": "15px",
+          "lineHeight": "1.75"
+        },
+        "color": {
+          "text": "#111111"
+        }
+      },
+      "core/button": {
+        "border": {
+          "radius": "2px"
+        },
+        "variations": {
+          "outline": {
+            "border": {
+              "color": "#0d1f3c",
+              "radius": "2px",
+              "style": "solid",
+              "width": "1px"
+            },
+            "color": {
+              "background": "transparent",
+              "text": "#0d1f3c"
+            }
+          }
+        }
+      },
+      "core/image": {
+        "border": {
+          "radius": "0"
+        }
+      },
+      "core/group": {
+        "spacing": {
+          "padding": {
+            "top": "2rem",
+            "right": "2rem",
+            "bottom": "2rem",
+            "left": "2rem"
+          }
+        }
+      },
+      "core/quote": {
+        "border": {
+          "color": "#0d1f3c",
+          "style": "solid",
+          "width": "0 0 0 4px"
+        },
+        "spacing": {
+          "padding": {
+            "left": "1.25rem"
+          }
+        },
+        "typography": {
+          "fontStyle": "normal"
+        },
+        "color": {
+          "text": "#111111"
+        }
+      },
+      "core/separator": {
+        "color": {
+          "background": "#e8e5e0"
+        }
+      },
+      "core/table": {
+        "border": {
+          "color": "#e8e5e0",
+          "style": "solid",
+          "width": "1px"
+        },
+        "typography": {
+          "fontSize": "14px",
+          "lineHeight": "1.65"
+        }
+      }
+    }
+  },
+  "templateParts": [],
+  "customTemplates": []
+}
